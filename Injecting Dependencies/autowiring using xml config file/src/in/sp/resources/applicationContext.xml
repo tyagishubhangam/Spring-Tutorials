@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean class="in.sp.beans.Address" id="address">-->
+<!--        <property name="housenum" value="362,tyagi market jagrati vihar sec 23"/>-->
+<!--        <property name="zone" value="Sanjaynagar GHAZIABAD"/>-->
+<!--        <property name="pincode" value="201002"/>-->
+<!--    </bean>-->
+<!--    <bean class="in.sp.beans.Student" id="stdId" autowire="byName">-->
+<!--        <property name="name" value="Shubhangam Tyagi"/>-->
+<!--        <property name="email" value="krishna@gmail.com"/>-->
+<!--    </bean>-->
+
+
+    <bean class="in.sp.beans.Address" id="addId" >
+        <property name="housenum" value="362,tyagi market jagrati vihar sec 23"/>
+        <property name="zone" value="Sanjaynagar GHAZIABAD"/>
+        <property name="pincode" value="201002"/>
+    </bean>
+    <bean class="in.sp.beans.Address" id="addId2" autowire-candidate="false">
+        <property name="housenum" value="tyagi market jagrati vihar "/>
+        <property name="zone" value="Sanjaynagar GHAZIABAD"/>
+        <property name="pincode" value="201002"/>
+    </bean>
+
+    <bean class="in.sp.beans.Student" id="stdId" autowire="byType">
+        <property name="name" value="Shubhangam Tyagi"/>
+        <property name="email" value="krishna@gmail.com"/>
+    </bean>
+
+
+</beans>

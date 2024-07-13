@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="SpringJars">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Spring Jar files/spring-aop-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Spring Jar files/commons-logging-1.3.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Spring Jar files/spring-beans-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Spring Jar files/spring-context-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Spring Jar files/spring-core-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Spring Jar files/spring-expression-6.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
